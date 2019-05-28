@@ -1,0 +1,316 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.wrapper_having_floated_elements:after {
+    /* to solve the float bug*/
+    content: "";
+    clear: both;
+    display: table;
+}
+.header{
+    padding: 60px 265px 0 265px;
+    max-width: 100%;
+    overflow: auto;  /*it will also solve the float bug*/
+}
+#group2{
+    padding: 10px;
+}
+.user-register{
+    background: #d83230;
+    color: #ffffff;
+    padding: 0 250px;
+    max-width: 100%;
+}
+.welcome-back{
+    font-size: 20px;
+    font-family: BrandonText-Regular,Arial,sans-serif;
+    line-height: 15px;
+}
+.sign-up{
+    font-size: 36px;
+    font-family: BrandonText-Medium,Arial,sans-serif;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin: 13px 0 15px;
+}
+.sign-up-form{
+    padding: 10px 15px 10px 15px;
+}
+input{
+    padding: 0 15px 0 15px;
+    width: 256px;
+    height: 34px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    float: left;
+
+}
+.teachers{
+    padding: 40px 0 15px 0;
+    width: 325px;
+    height: 132px;
+    background-color: #ad2826;
+    margin-right: 15px;
+}
+button{
+    line-height: 45px;
+    margin: 14px 26px 29px 26px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 273px;
+    height: 45px;
+    background: #3FB0EB;
+    color: white;
+    transition: all ease-in 200ms;
+    border: none;
+    padding: 0;
+}
+button:hover {
+    opacity: 0.8;
+}
+.transparent-mask{
+    z-index: 0;
+    height: 20px;
+    background: #ad2826;
+    width: 100%;
+}
+.childrenDon\'tlovetoread{
+    background: url("https://clubs.scholastic.com/on/demandware.static/-/Sites-rco-us-Library/default/dwae73407d/images/banners/sign-in-video-bg.jpg") no-repeat center;
+    width: 100%;
+    background-size: cover;
+}
+.text{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 22px 0 3px 0;
+    font-family: BrandonText-Regular, Arial, sans-serif;
+    font-weight: 300;
+}
+.h2-title {
+    color: #d83230;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 36px;
+    font-family: BrandonText-Regular, Arial, sans-serif;
+    line-height: 1.165;
+    font-weight: 400;
+}
+.HowToGrowTheLoveOfReadingWithSarcasm{
+    width: 100%;
+}
+.Teachers\.\.Hooray\?{
+    text-align: center;
+}
+.container{
+    display: inline-block;
+    margin: 0 10px;
+}
+.border-line{
+    color: #D73131;
+    font-weight: bold;
+    position: relative;
+    font-size: 14px;
+    margin: 0;
+    top: 5px;
+}
+.border-line:before {
+     content: "____________";
+     color: #dbcba6;
+     position: absolute;
+     top: -3px;
+     left: 2px;
+ }
+.border-line:after {
+    content: "____________";
+    color: #dbcba6;
+    position: absolute;
+    top: -3px;
+    right: 1px;
+}
+.h2 {
+    color: #3a3a3a;
+    font-size: 18px;
+    margin-top: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+.h2 {
+    color: #3a3a3a;
+    font-size: 18px;
+    margin-top: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+.h2 {
+    color: #3a3a3a;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+.h2 {
+    color: #3a3a3a;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    color: #d83230;
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-family: BrandonText-Regular, Arial, sans-serif;
+    padding-top: 20px;
+    font-weight: 300;
+}
+.HowNotToGetStarted{
+    text-align: center;
+    background: #f4f1ea;
+    width: 100%;
+    position: relative;
+    padding-bottom: 15px;
+}
+.ExclusivelyForTeachers{
+    margin: 42px auto 0;
+    width: 100%;
+}
+.h21 {
+    color: #d83230;
+    font-weight: 300;
+    font-size: 36px;
+    font-family: BrandonText-Regular, Arial, sans-serif;
+    margin-top: 42px;
+    margin-bottom: 22px;
+    line-height: 1.165;
+}
+.dumb-boxes{
+    display: grid;
+    grid-template-columns: 257px 237px 237px 257px;
+    justify-content: center;
+    text-align: center;
+}
+.item {
+    font-family: BrandonText-Regular, sans-serif;
+    color: #3a3a3a;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-right: 1px solid #d83230;
+    margin-bottom: 50px;
+}
+.item:first-child{
+    border-left: 1px solid #d83230;
+
+}
+.LetsGetReading{
+    height: auto;
+    background-color: #F4F1EA;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+.account{
+    line-height: 45px;
+    background: #3FB0EB;
+    height: 45px;
+    display: inline-block;
+    margin-top: 14px;
+    position: relative;
+    text-transform: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-family: Arial,sans-serif;
+    margin-bottom: 20px;
+}
+.account:last-child {
+    margin-bottom: 0;
+}
+.footer{
+    width: 100%;
+    margin-bottom: 14px;
+    height: auto;
+
+}
+.dumb-boxes1{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 175px;
+    justify-content: center;
+    text-align: center;
+    grid-column-gap: 4px;
+
+}
+.item1{
+    padding: 17px 20px 0 20px;
+    background-color: #F4F1EA;
+}
+.footer-text, .footer-text1{
+    color: #3a3a3a;
+    letter-spacing: 0;
+    list-style: none!important;
+    line-height: .8;
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+}
+.footer-text:hover{
+    color: #f88000;
+}
+.TheRealFooter{
+    width: 50%;
+    margin: 0 50px 150px 210px;
+}
+.bar{
+    margin: 0 9px;
+}
+.one{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    float: left;
+    clear: both;
+    line-height: 18px;
+    list-style: none;
+    color: #3a3a3a!important;
+    box-sizing: borderbox;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial,sans-serif;
+    color: #3a3a3a;
+}
+.foot{
+    color: #3a3a3a;
+    text-decoration: none;
+}
+.foot:hover{
+    color: #f88000;
+}
